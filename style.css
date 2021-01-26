@@ -1,0 +1,38 @@
+#num_1,
+#num_2,
+#answer {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 300px;
+  background-color: pink;
+  border: 2px solid rgb(233, 6, 82);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+#calculator {
+  border: 2px solid rgb(233, 6, 82);
+  margin-left: 550px;
+  margin-right: 562px;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  background-color: rgb(233, 6, 82);
+  border: 2px solid rgb(233, 6, 82);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
