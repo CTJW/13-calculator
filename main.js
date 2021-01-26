@@ -1,12 +1,12 @@
 const num1 = document.querySelector("#num_1");
 const num2 = document.querySelector("#num_2");
 const output = document.querySelector("#answer");
-let x = num_1;
-let y = num_2;
+
 document.querySelector("#calculator").addEventListener("submit", function (e) {
   e.preventDefault();
 
-  console.log(e.submitter);
+  let x = num1.value;
+  let y = num2.value;
 
   if (e.submitter.id == "add") {
     output.value = parseInt(x) + parseInt(y);
